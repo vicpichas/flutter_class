@@ -31,7 +31,10 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('플러터 수업 복습입니다.')),
-    );
+        appBar: AppBar(title: const Text('플러터 수업 복습입니다.')),
+        body: Center(
+            child: Column(
+          children: [],
+        )));
   }
 }
